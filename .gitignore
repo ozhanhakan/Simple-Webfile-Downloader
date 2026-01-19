@@ -1,0 +1,16 @@
+# Object files
+*.o
+
+# Executable
+mydownloader
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Doc files
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
