@@ -78,6 +78,17 @@ Doğrudan bir dosya URL'i verirsen sadece onu indirir.
 - HTML parsing burada bilerek “hafif” tutuluyor; her site için tam uyumluluk garanti edilmez.
 - Bazı siteler bot koruması / JS ile link üretimi kullanıyorsa linkler bulunmayabilir.
 
+### Amaç / Hedef içerik
+
+Bu araç, Teknofest Binek Otonom Araç Yarışması sayfasındaki **“Geçmiş Yıl Raporları”** gibi sayfalardan rapor dosyalarını (özellikle **PDF**) toplu şekilde indirebilmek için geliştirilmiştir.
+
+Referans sayfa:
+- https://www.teknofest.org/tr/yarismalar/robotaksi-binek-otonom-arac-yarismasi/
+
+Örnek kullanım:
+```bash
+./mydownloader https://www.teknofest.org/tr/yarismalar/robotaksi-binek-otonom-arac-yarismasi/ pdf
+
 ## Lisans
 
 MIT.
